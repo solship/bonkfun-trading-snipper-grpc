@@ -1,7 +1,13 @@
 [package]
-name = "bonk-sniper-rust"
-version = "0.1.0"
-edition = "2024"
+name = "bonkfun-trading-snipper-grpc"
+version = "2.0.0"
+edition = "2021"
+authors = ["solship <contact@solship.com>"]
+description = "High-performance Bonk.fun Sniper Bot powered by Helius Laserstream gRPC for real-time Solana transaction streaming and instant token sniping"
+license = "MIT"
+repository = "https://github.com/solship/bonkfun-trading-snipper-grpc.git"
+keywords = ["solana", "bonkfun", "trading", "bot", "grpc", "helius", "sniper"]
+categories = ["blockchain", "cryptocurrency", "trading"]
 
 [dependencies]
 dotenvy = "0.15.7"
